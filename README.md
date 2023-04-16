@@ -1,9 +1,9 @@
-# Template Next ORM
+買板に対してトークンを出品し、マッチングしたら SecretLockTransaction を飛ばすもの。
+Secret は現時点ではトランザクションの確認に向かい、自身で取得するものとする
 
-Templates for the following configurations are available.
+## future
 
-- Next.js
-- Next-Auth
-- mui-material
-- Prisma
-- Open API Specification
+- Secret の安全な伝達方法
+- アカウント情報の保管機能（特にパブリックキー）
+- Mosaic 以外との交換 Tx
+- 板形式の表示

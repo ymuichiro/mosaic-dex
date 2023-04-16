@@ -1,3 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+.scroll-bar-off {
+  scrollbar-width: none;
+}
+
+.scroll-bar-off::-webkit-scrollbar {
+  display: none;
+}

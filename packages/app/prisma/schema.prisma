@@ -54,3 +54,13 @@ model VerificationToken {
 
   @@unique([identifier, token])
 }
+
+model Trade {
+  id           String @id @default(cuid())
+  price        Int    @default(0)
+  amount       Int    @default(0)
+  fromMosaicId String // 出品している mosaic の Id
+  toMosaicId   String // 宛先の Mosaic ID
+  publicKey    String // 宛先となる Symbol public key
+  type         String
+}
